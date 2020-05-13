@@ -12,8 +12,10 @@ def monopoly_with_second_tier
   # complexity.
 [:railroads][:pieces]
 [:railroads][:pieces] = 4
-[:railroads][:rent_in_dollars => {}]
-[:railroads][:names => {}]
+[:railroads][:rent_in_dollars]
+[:railroads][:rent_in_dollars][{}]
+[:railroads][:names] 
+[:railroads][:names][{}]
 end
 
 def monopoly_with_third_tier
